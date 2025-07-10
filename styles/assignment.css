@@ -6,12 +6,19 @@
 
 /* Nav styles */
 
+header{
+    background-image: url(../Assets/Hero-bg.png);
+    max-width: 1440%;
+    height: 698%;
+}
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 50px auto;
+    margin: 0 auto;
     max-width: 1140px;
-    height: 151px;  
+    height: 151px;
+    padding: 50px 150px;
+     
 }
 nav h1{
     color: #4E47FF;
@@ -20,6 +27,7 @@ nav h1{
     font-weight: black;
     width: 99px;
     height: 51px;
+    
 }
 nav button{
     color: white;
@@ -27,5 +35,30 @@ nav button{
     height: 48px;
     border-radius: 10px;
     background-color: #4E47FF;
+    border: 1px solid #4E47FF;
+}
+
+/* Banner styles */
+
+.banner{
+    text-align: center;
+    width: 905px;
+    height: 237px;
+    padding: 158px 267px 152px;
+    margin: 0 auto;
+}
+.banner h1{
+    font-size: 65px;
+    font-weight: bold;
+    line-height: auto;
+}
+.banner button{
+    color: white;
+    margin-top: 37px;
+    margin-bottom: 152px;
+    background-color: #4E47FF;
+    width: 174px;
+    height: 48px;
+    border-radius: 10px;
     border: 1px solid #4E47FF;
 }
