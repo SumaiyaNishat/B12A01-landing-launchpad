@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+body{
+    background-color: rgba(214, 221, 237, 1);
+}
+
 /* Nav styles */
 
 header{
@@ -38,7 +42,7 @@ nav button{
     height: 48px;
     border-radius: 10px;
     background-color: #4E47FF;
-    border: 1px solid #4E47FF;
+    border: none;
 }
 
 /* Banner styles */
@@ -98,7 +102,7 @@ nav button{
     width: 229px;
     height: 48px;
     border-radius: 10px;
-    border: 1px solid #4E47FF;
+    border: none;
 }
 .rightside img{
     border-radius: 48px;
@@ -215,4 +219,97 @@ nav button{
 
 }
 
+.optional{
+    background-color: white;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius:14px;
+    max-width: 1140px;
+    height: 696px;
+    margin: 0 auto;
+    padding: 71px 150px;
+    text-align: center;
+}
+.optional h3{
+    width: 516px;
+    height: 60px;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 150%;
+    padding: 70px 312px 20px 312px;   
+}
+.optional p{
+    color: rgba(0, 0, 0, 0.5);
+    padding: 20px 326px;
+    width: 487px;
+    height: 22px;
+}
 
+.optional button{
+    color: white;
+    padding: 12px 36px;
+    background-color: #4E47FF;
+    width: 195px;
+    height: 48px;
+    border-radius: 10px;
+    border: none;
+    
+   
+}
+.optional .img1{
+    width: 840px;
+    height: 364px;
+    border-radius: 48px;
+    padding: 20px;
+
+}
+
+.touch-section{
+    max-width: 1140px;
+    height: 632px;
+    display: flex;
+    gap: 115px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 71px 0;
+    
+}
+.touch-section .leftside{
+    font-size: 97px;
+    font-weight: bold;
+    line-height: 120%;
+    width: 528px;
+    height: 232px;
+}
+
+.touch-section .right-side{
+    width: 497px;
+    height: 490px;
+}
+
+.touch-section input[type="text"], .touch-section input[type="name"], .touch-section textarea{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 32px 20px;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 19px;
+
+}
+textarea{
+    width: 50%;
+    height: 135px;
+}
+
+.touch-section button{
+    color: white;
+    padding: 19px 201px;
+    background-color: #4E47FF;
+    width: 497px;
+    height: 62px;
+    border-radius: 10px;
+    border: none;
+}
