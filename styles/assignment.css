@@ -3,11 +3,9 @@
     margin: 0;
     padding: 0;
 }
-
 body{
     background-color: rgba(214, 221, 237, 1);
 }
-
 /* Nav styles */
 
 header{
@@ -21,8 +19,7 @@ nav{
     margin: 0 auto;
     max-width: 1140px;
     height: 151px;
-    padding: 50px 150px;
-     
+    padding: 50px 150px;   
 }
 nav h1{
     color: #4E47FF;
@@ -200,16 +197,13 @@ nav button{
     gap: 12px;
     max-width: 318px;
     height: 46px;
-    padding-top: 24px;
-    
-    
+    padding-top: 24px; 
 }
 .user-info .img{
     width: 40px;
     height: 40px;
     border-radius: 50%;
 }
-
 .user-info h4{
     color: rgba(117, 117, 117, 1);
     
@@ -226,7 +220,7 @@ nav button{
     max-width: 1140px;
     height: 696px;
     margin: 0 auto;
-    padding: 71px 150px;
+    padding: 71px auto;
     text-align: center;
 }
 .optional h3{
@@ -252,14 +246,13 @@ nav button{
     height: 48px;
     border-radius: 10px;
     border: none;
-    
-   
+    align-items: center;
 }
 .optional .img1{
     width: 840px;
     height: 364px;
     border-radius: 48px;
-    padding: 20px;
+    padding: 20px 150px;
 
 }
 
@@ -312,4 +305,45 @@ textarea{
     height: 62px;
     border-radius: 10px;
     border: none;
+}
+
+footer{
+    background-color: white;
+    width: 100%;
+    height: 428px;
+    text-align: center;
+}
+.footer-section{
+    padding-top: 104px;
+    width: 531px;
+    height: 221px;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+.footer-section h2{
+    font-size: 100px;
+    color: #4E47FF;
+
+}
+.footer-section p{
+    color: rgba(137, 135, 161, 1);
+    width: 531px;
+    height: 48px;
+    padding: 0; 
+}
+.list ul{
+    display: flex;
+    gap: 48px;
+    justify-content: center;
+    list-style: none;
+}
+.list ul a{
+    text-decoration: none;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: red;
+    
 }
